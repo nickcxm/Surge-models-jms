@@ -1,4 +1,4 @@
-const url = $persistentStore.read("url");
+const url = $persistentStore.read("jmsurl");
 
 $httpClient.get(url, function(error, response, data) {
     if (error) {
